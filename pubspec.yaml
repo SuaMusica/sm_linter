@@ -4,7 +4,7 @@ version: 1.0.0
 repository: https://github.com/SuaMusica/sm_linter
 issue_tracker: https://github.com/SuaMusica/sm_linter/issues
 homepage: https://github.com/SuaMusica/
-documentation: https://
+documentation: https://github.com/SuaMusica/sm_linter
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

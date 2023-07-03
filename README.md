@@ -19,6 +19,16 @@ dev_dependencies:
   sm_linter: ^1.0.0
 ```
 
+Or run the following command:
+
+```bash
+# flutter
+flutter pub add --dev sm_linter
+
+# dart
+dart pub add --dev sm_linter
+```
+
 And the following to your `analysis_options.yaml`:
 
 ```yaml
