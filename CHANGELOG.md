@@ -1,3 +1,9 @@
+# CHANGELOG
+
+## Unreleased
+
+None. 
+
 ## 1.0.0
 
-- Initial version.
+- Initial release of sm_linter. 

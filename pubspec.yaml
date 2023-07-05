@@ -1,15 +1,10 @@
 name: sm_linter
-description: A sample command-line application.
+description: Sua Música Linter Rules
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/SuaMusica/sm_linter
+issue_tracker: https://github.com/SuaMusica/sm_linter/issues
+homepage: https://github.com/SuaMusica/
+documentation: https://github.com/SuaMusica/sm_linter
 
 environment:
-  sdk: ^3.0.3
-
-# Add regular dependencies here.
-dependencies:
-  # path: ^1.8.0
-
-dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
+  sdk: '>=3.0.0 <4.0.0'
