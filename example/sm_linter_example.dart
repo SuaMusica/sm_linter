@@ -12,7 +12,7 @@ void main() {
 
   /// This is ignoring the linter rule.
   /// To ignore a rule, use the ignore comment:
-  /// which follows the template: [ignore_for_file: <rule_name>].
+  /// which follows the template: [ignore: <rule_name>].
   // ignore: prefer_const_declarations
   final String music = 'Música';
   print('$your $music');
