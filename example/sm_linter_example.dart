@@ -3,7 +3,7 @@
 /// dart run example/sm_linter_example.dart.
 
 /// With this [ignore_for_file], we can ignore the linter rules in a specific file.
-// ignore_for_file: unnecessary_string_interpolations
+// ignore_for_file: unnecessary_string_interpolations, avoid_print
 
 void main() {
   /// This is following the linter normally.
@@ -12,10 +12,9 @@ void main() {
 
   /// This is ignoring the linter rule.
   /// To ignore a rule, use the ignore comment:
-  /// which follows the template: [ignore: <rule_name>].
+  /// which follows the template: [ignore_for_file: <rule_name>].
   // ignore: prefer_const_declarations
   final String music = 'Música';
-
   print('$your $music');
 
   /// Also, we can ignore multiple rules at once, separating them by comma [,]:

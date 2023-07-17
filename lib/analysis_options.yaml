@@ -44,7 +44,7 @@ linter:
     # - avoid_js_rounded_ints # only useful when targeting JS runtime
     - avoid_null_checks_in_equality_operators
     # - avoid_positional_boolean_parameters # not yet tested
-    # - avoid_print # not yet tested
+    - avoid_print
     # - avoid_private_typedef_functions # we prefer having typedef (discussion in https://github.com/flutter/flutter/pull/16356)
     # - avoid_redundant_argument_values # not yet tested
     - avoid_relative_lib_imports
@@ -111,7 +111,7 @@ linter:
     # - prefer_asserts_with_message # not yet tested
     - prefer_collection_literals
     - prefer_conditional_assignment
-    # - prefer_const_constructors
+    - prefer_const_constructors
     - prefer_const_constructors_in_immutables
     - prefer_const_declarations
     - prefer_const_literals_to_create_immutables
@@ -150,7 +150,7 @@ linter:
     - sized_box_for_whitespace
     - sized_box_shrink_expand
     - slash_for_doc_comments
-    # - sort_child_properties_last # not yet tested
+    - sort_child_properties_last
     - sort_constructors_first
     - sort_pub_dependencies
     - sort_unnamed_constructors_first
