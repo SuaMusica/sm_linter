@@ -23,7 +23,6 @@ linter:
     - always_declare_return_types
     - always_put_control_body_on_new_line
     # - always_put_required_named_parameters_first # we prefer having parameters in the same order as fields https://github.com/flutter/flutter/issues/10219
-    - always_require_non_null_named_parameters
     # - always_specify_types
     - annotate_overrides
     - close_sinks
@@ -160,6 +159,7 @@ linter:
     - unawaited_futures # too many false positives
     # - unnecessary_await_in_return # not yet tested
     - unnecessary_brace_in_string_interps
+    - unnecessary_await_in_return
     - unnecessary_const
     # - unnecessary_final # conflicts with prefer_final_locals
     - unnecessary_getters_setters
