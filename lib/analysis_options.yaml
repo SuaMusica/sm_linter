@@ -13,10 +13,13 @@ analyzer:
     unnecessary_this: warning
     unused_import: warning
     no_leading_underscores_for_local_identifiers: ignore
-    use_build_context_synchronously: warning
+    use_build_context_synchronously: warning    
+    always_use_package_imports: error
+    avoid_classes_with_only_static_members: ignore
 
 linter:
   rules:
+    - always_use_package_imports
     # these rules are documented on and in the same order as
     # the Dart Lint rules page to make maintenance easier
     # https://github.com/dart-lang/linter/blob/main/example/all.yaml
